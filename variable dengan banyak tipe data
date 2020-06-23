@@ -1,0 +1,28 @@
+#include<iostream>
+#include<string>
+using namespace std;
+	int nama;
+	string nim = "ETE10190121";
+	char golonganDarah = 'A';
+	float tinggiBadan;
+	float beratBadan;
+	double pengurangan (double tinggiBadan, double rumus){
+	return tinggiBadan - rumus;
+	}
+
+int main (){
+	cout<<"Masukkan Nama "<<endl;
+	cin>>nama;
+	cout<<"Golongan Darah: "<<golonganDarah;
+	tinggiBadan = 155.5 ;
+	beratBadan = 50 ;
+	cout<< endl;
+	cout<< "NIM:"<< nim;
+	cout<< endl;
+	cout<< "Tinggi Badan:"<< tinggiBadan;
+	cout<< endl;
+	cout<< "Berat Badan:"<< beratBadan;
+	cout<< endl;
+	cout<< "ini adalah hasil berat badan ideal"<< endl;
+	cout<< pengurangan (155.5, 100);
+}
